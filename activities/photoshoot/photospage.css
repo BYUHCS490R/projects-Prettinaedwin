@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Footer styling */
+header, footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e0;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+nav a.current {
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* UL for index page */
+ul.custom-bullets {
+    list-style-image: url('bullet.png'); /* Replace with your bullet image */
+}
+
+/* Backgrounds for index page */
+body.index {
+    background-image: url('background-repeat.jpg'); /* repeating background */
+    background-repeat: repeat;
+}
+
+body.index::after {
+    content: "";
+    background-image: url('background-decor.png'); /* non-repeating decorative */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    max-width: 80%;
+    height: auto;
+    margin: 10px 0;
+}
+
