@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+}
+nav a{
+    display: inline-block;
+    padding: 10px;
+    background-color: aqua;
+    border bottom: thin solid white;
+    text decoration
+
+}
+.temple{
+    border: thin solid black;
+    width: 300px;
+}
+.temple img{
+    width: 100;
+}
+.hammer{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    margin: 0;
+    display : none;
+}
+.floater{
+    float: right;
+}
+.laietemple{
+    width: 100px;
+}
+.clear{
+    clear: both;
+}

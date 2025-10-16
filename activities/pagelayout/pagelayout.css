@@ -1,0 +1,103 @@
+
+.wrapper {
+  width: 850px;
+  margin: 0 auto;
+  background-color: #e8c774;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background-image: url('Hawaii.jpg');
+  background-size: cover;
+  background-origin: border-box;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  border-bottom: 5px solid #fca5a5;
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffeaa7;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6);
+}
+
+main {
+  padding: 25px;
+  line-height: 1.7;
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  color: #2c3e50;
+  background-color: #f0fbfa; 
+}
+
+figure {
+  width: 320px;
+  margin: 10px;
+  padding: 6px;
+  border: 2px solid #b2f5ea;
+  border-radius: 12px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.float-left {
+  float: left;
+  margin-right: 15px;
+}
+figcaption {
+  font-size: 0.9em;
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+footer {
+  background-image: url('Hawaii.jpg');
+  background-size: cover;
+  background-clip: padding-box;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  font-size: 1em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  border-top: 5px solid #fca5a5;
+}
+footer p {
+  transition: color 0.3s ease;
+}
+
+footer p:hover {
+  color: #ffeaa7;
+}

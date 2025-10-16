@@ -26,7 +26,7 @@ header h1 {
 /* Navigation styling */
 nav {
     background-color: rgb(57, 109, 155);
-    border: 3px dashed red;
+    border: 3px dashed rgb(207, 80, 80);
     padding: 10px;
     text-align: center;
     border-radius: 8px;
