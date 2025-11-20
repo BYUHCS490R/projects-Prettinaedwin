@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="stylesheet" href="projectform.css">
+</head>
+<body>
+    <header>
+        <h1>Form Submission Project</h1>
+    </header>
+
+    <main>
+        <form id="userForm">
+            <label>Name:
+                <input type="text" id="name" name="name">
+            </label>
+
+            <label>Email:
+                <input type="email" id="email" name="email">
+            </label>
+
+            <label>Age:
+                <input type="number" id="age" name="age" min="1" max="120">
+            </label>
+
+            <label>Password:
+                <input type="password" id="password" name="password">
+            </label>
+
+            <label>About You:
+                <textarea id="about" name="about"></textarea>
+            </label>
+
+            <label>
+                <input type="checkbox" id="agree" name="agree"> I agree to the terms
+            </label>
+
+            <label>Gender:
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+
+            <label>Country:
+                <select id="country" name="country">
+                    <option value="">Select</option>
+                    <option value="USA">USA</option>
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </label>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="responseMessage"></div>
+    </main>
+
+    <footer>
+        <p>© 2025 Form Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
