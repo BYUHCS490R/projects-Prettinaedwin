@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emotional Habits Table</title>
-<link rel="stylesheet" href="final.css">
+<title>Share Your Goals</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <header>
     <h1>The Journey to Emotional Strength</h1>
 </header>
@@ -17,62 +18,61 @@
         <li><a href="page1.html">Emotional Strength</a></li>
         <li><a href="page2.html">Confidence</a></li>
         <li><a href="page3.html">Relationships</a></li>
-        <li><a href="page4.html">Form</a></li>
-        <li><a href="page5.html" class="active">Habits Table</a></li>
+        <li><a href="page4.html" class="active">Form</a></li>
+        <li><a href="page5.html">Habits Table</a></li>
     </ul>
 </nav>
 
 <div class="container">
-    <h2>Emotional Habits Table</h2>
-    <p>These simple habits can boost your emotional strength and help you navigate daily life more positively.</p>
+    <h2>Share Your Emotional Goals</h2>
 
-    <table>
-        <caption>Top Emotional Strength Habits</caption>
-        <thead>
-            <tr>
-                <th>Habit</th>
-                <th>Time Required</th>
-                <th>Benefits</th>
-                <th>Difficulty Level</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Journaling</td>
-                <td>10-15 min/day</td>
-                <td>Self-reflection, clarity of mind</td>
-                <td>Medium</td>
-            </tr>
-            <tr>
-                <td>Exercising</td>
-                <td>30 min/day</td>
-                <td>Reduces stress, improves mood</td>
-                <td>Medium</td>
-            </tr>
-            <tr>
-                <td>Daily Gratitude</td>
-                <td>5 min/day</td>
-                <td>Increases positivity</td>
-                <td>Easy</td>
-            </tr>
-            <tr>
-                <td>Limiting Social Media</td>
-                <td>1 hr/day</td>
-                <td>Less comparison, more focus</td>
-                <td>Hard</td>
-            </tr>
-            <tr>
-                <td>Meditation</td>
-                <td>10 min/day</td>
-                <td>Reduces anxiety, improves focus</td>
-                <td>Medium</td>
-            </tr>
-        </tbody>
-    </table>
+    <p>
+        Hi there! I’m so glad you’re here. This form is a safe space for you to reflect on your emotional habits, 
+        how you handle stress, and what goals you want to achieve. Taking a moment to answer these questions can 
+        help you understand yourself better and track your growth over time.
+    </p>
+
+    <img src="images/journaling.jpg" alt="Journaling for self-reflection">
+
+    <form id="emotionalForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+
+        <label for="age">Age Group:</label>
+        <select id="age" required>
+            <option value="">Select Age</option>
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36+">36+</option>
+        </select>
+
+        <label for="stress">How do you handle stress?</label>
+        <input type="text" id="stress" placeholder="Ex: meditation, journaling" required>
+
+        <label for="goal">What emotional goal do you want to achieve?</label>
+        <textarea id="goal" rows="4" placeholder="Share your goal here..." required></textarea>
+
+        <label>
+            <input type="checkbox" id="updates"> I’d like to receive updates and tips
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="formMessage"></p>
+
+    <p>
+        Your responses are private and for your own reflection. Take your time and be honest—this is a safe space 
+        for you to explore your emotional journey.
+    </p>
+
+    <blockquote>"The journey of a thousand miles begins with a single step." – Lao Tzu</blockquote>
+
 </div>
 
-<footer>
-    <p style="text-align:center;">&copy; 2025 Prettina Edwin</p>
-</footer>
+<script src="form11.js"></script>
 </body>
 </html>

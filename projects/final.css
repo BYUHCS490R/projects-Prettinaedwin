@@ -1,5 +1,4 @@
-/* Reset & basic styles */
-* {
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -46,7 +45,6 @@ nav ul li a.active, nav ul li a:hover {
     background-color: #e67e22;
 }
 
-/* Page content container */
 .container {
     max-width: 900px;
     margin: 20px auto;
@@ -121,7 +119,6 @@ form button:hover {
     background-color: #d35400;
 }
 
-/* Responsive Navigation */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
