@@ -1,4 +1,3 @@
-alert('page4')
 const form = document.getElementById("emotionalForm");
 const message = document.getElementById("formMessage");
 
